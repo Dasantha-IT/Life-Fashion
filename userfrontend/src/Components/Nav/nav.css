@@ -1,0 +1,38 @@
+/* Reset default margin and padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation list */
+  .home-ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #333; /* Dark background */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Style each navigation item */
+  .home-ul li {
+    display: inline;
+    padding: 10px 20px;
+  }
+  
+  /* Style the links */
+  .home-ul li h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white; /* Text color */
+    margin: 0;
+  }
+  
+  /* Hover effect */
+  .home-ul li:hover {
+    background-color: #555;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
